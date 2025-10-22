@@ -4,13 +4,14 @@ import { getAuth } from "firebase/auth"
 import { getStorage } from "firebase/storage" // Import getStorage
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDReM6qjmJb7EZCDoIoR5j1HsVLmiCRD9s",
-  authDomain: "ajlitannurtgl.firebaseapp.com",
-  databaseURL: "https://ajlitannurtgl-default-rtdb.firebaseio.com",
-  projectId: "ajlitannurtgl",
-  messagingSenderId: "1061708931334",
-  appId: "1:1061708931334:web:661148d945845e1d7f3e87",
-  measurementId: "G-ZRDQBCVXVF",
+  apiKey: "AIzaSyAaXU9mr5On11bA5ilEGHh27bPiDX6Um0Q",
+  authDomain: "suugii4466-70a06.firebaseapp.com",
+  databaseURL: "https://suugii4466-70a06-default-rtdb.firebaseio.com",
+  projectId: "suugii4466-70a06",
+  storageBucket: "suugii4466-70a06.firebasestorage.app",
+  messagingSenderId: "451186567811",
+  appId: "1:451186567811:web:036d278781f61dae74c9b6",
+  measurementId: "G-36K67LKQBC",
 }
 
 const app = initializeApp(firebaseConfig)
